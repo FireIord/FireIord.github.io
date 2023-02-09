@@ -1,6 +1,7 @@
 .body {
     margin: 0px;
     background-color: black;
+    font-family: sans-serif;
 }
 
 .row1 {
@@ -43,15 +44,25 @@
 .row2{
     background: url("/images/menubg.jpg")repeat;
     height: 36px;
-    width: 1000px;
+    width: 840px;
     margin: auto;
-    padding: 14px 0px 0px 0px;
+    padding: 14px 80px 0px 80px;
+}
+.row2col_active{
+    background: url("/images/menuactive.png")no-repeat;
+    height: 35px;
+    width: 127px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 38px;
+    float: left;
 }
 .row2col{
     background: url("/images/menubackground.png")no-repeat;
     height: 35px;
     width: 127px;
-    margin: 0px 19.5px;
+    margin-left: 10px;
     text-align: center;
     font-weight: bold;
     line-height: 38px;
@@ -64,9 +75,9 @@
 }
 .row3col1{
     float: left;
-    width: 220px; 
+    width: 213px; 
     height: 240px;
-    margin: 7px;
+    margin: 10px 10px;
 }
 .row3menu{
     background: url("/images/leftmenubg.png") no-repeat;
@@ -80,8 +91,7 @@
 .row3col2{
     color: white;
     float: left;
-    margin: 4px;
-    margin-top: 10px;
+    margin: 10px 10px;
     width: 740px; 
     height: 240px;
 }
@@ -102,8 +112,8 @@
     font-size: large;
     color: azure;
     background: url("/images/whybg.jpg");
-    border: 2px solid white;
-    border-radius: 15px;
+    border: 1px solid white;
+    border-radius: 12px;
     line-height: 20px;
 }
 .row4col2{
@@ -116,6 +126,7 @@
     line-height: 20px;
     background-color: #fdc059;
     border: 1px solid white;
+    font-size: 15px;
 }
 .row4col3{
     float: left;
@@ -128,24 +139,8 @@
     width: 1000px;
     margin: auto;
     margin-top: 10px;
-}
-.row5col1{
-    height: 48px;
-    width: 13px;
-    background: url("/images/footer_left.png");
-    float: left;
-}
-.row5col2{
-    height: 48px;
-    width: 974px;
     background: url("/images/footer_middle.png");
-    float: left;
+    border: 1px solid white;
+    border-radius: 10px;
     text-align: center;
-    line-height: 50px;
-}
-.row5col3{
-    height: 48px;
-    width: 13px;
-    background: url("/images/footer_right.png");
-    float: left;
 }
