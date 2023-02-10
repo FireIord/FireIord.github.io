@@ -71,7 +71,7 @@
 .row3{
     margin: auto;
     width: 1000px;
-    height: 250px;
+    overflow:auto;
 }
 .row3col1{
     float: left;
@@ -100,7 +100,7 @@
     margin: auto;
     margin-top: 5px;
     width: 1000px;
-    height: 210px;
+    overflow:auto;
 }
 .row4col1{
     padding-top: 10px;
@@ -149,7 +149,7 @@
 .row3about{
     margin: auto;
     width: 1000px;
-    height: 580px;
+    overflow:auto;
 }
 .about_info{
     background-color: white;
@@ -164,14 +164,13 @@
 .row3courses{
     margin: auto;
     width: 1000px;
-    height: 250px;
+    overflow:auto;
 }
-
 /* gallery page */
 .row3gallery{
     margin: auto;
     width: 1000px;
-    height: 650px;
+    overflow:auto;
 }
 .gallery_image{
     margin: 15px;
@@ -183,5 +182,5 @@
 .row3contact{
     margin: auto;
     width: 1000px;
-    height: 275px;
+    overflow:auto;
 }
