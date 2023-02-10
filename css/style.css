@@ -144,3 +144,44 @@
     border-radius: 10px;
     text-align: center;
 }
+
+/* about page  */
+.row3about{
+    margin: auto;
+    width: 1000px;
+    height: 580px;
+}
+.about_info{
+    background-color: white;
+    height: max-content;
+    margin: 10px;
+    width: 700px;
+    padding: 0px 20px;
+    float: left;
+}
+
+/* courses page */
+.row3courses{
+    margin: auto;
+    width: 1000px;
+    height: 250px;
+}
+
+/* gallery page */
+.row3gallery{
+    margin: auto;
+    width: 1000px;
+    height: 650px;
+}
+.gallery_image{
+    margin: 15px;
+    float: left;
+}
+
+/* contact page */
+
+.row3contact{
+    margin: auto;
+    width: 1000px;
+    height: 275px;
+}
