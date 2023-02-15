@@ -5,7 +5,7 @@
 }
 
 .row1 {
-    background: url("/images/headerbg.jpg");
+    background: url("/web1/images/headerbg.jpg");
     height: 186px;
     width: 1000px;
     margin: auto;
@@ -39,17 +39,17 @@
     height: 122px;
     text-align: center;
     font-size: 20px;
-    background: url("/images/topcontactbg.png");
+    background: url("/web1/images/topcontactbg.png");
 }
 .row2{
-    background: url("/images/menubg.jpg")repeat;
+    background: url("/web1/images/menubg.jpg")repeat;
     height: 36px;
     width: 840px;
     margin: auto;
     padding: 14px 80px 0px 80px;
 }
 .row2col_active{
-    background: url("/images/menuactive.png")no-repeat;
+    background: url("/web1/images/menuactive.png")no-repeat;
     height: 35px;
     width: 127px;
     margin-left: 10px;
@@ -59,7 +59,7 @@
     float: left;
 }
 .row2col{
-    background: url("/images/menubackground.png")no-repeat;
+    background: url("/web1/images/menubackground.png")no-repeat;
     height: 35px;
     width: 127px;
     margin-left: 10px;
@@ -80,7 +80,7 @@
     margin: 10px 10px;
 }
 .row3menu{
-    background: url("/images/leftmenubg.png") no-repeat;
+    background: url("/web1/images/leftmenubg.png") no-repeat;
     height:40px ;
     width: 213px;
     text-align: center;
@@ -111,7 +111,7 @@
     text-align: center;
     font-size: large;
     color: azure;
-    background: url("/images/whybg.jpg");
+    background: url("/web1/images/whybg.jpg");
     border: 1px solid white;
     border-radius: 12px;
     line-height: 20px;
@@ -139,7 +139,7 @@
     width: 1000px;
     margin: auto;
     margin-top: 10px;
-    background: url("/images/footer_middle.png");
+    background: url("/web1/images/footer_middle.png");
     border: 1px solid white;
     border-radius: 10px;
     text-align: center;
