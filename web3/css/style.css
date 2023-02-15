@@ -1,0 +1,83 @@
+.body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main1{
+    background: url("/web3/images/bg_img.jpg");
+    width: 100%;
+}
+.inner{
+    width: 1000px;
+    margin: auto;
+    border: 1px solid red;
+}
+.logo{
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.c_info{
+    float: right;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: right;
+    margin-right: 1%;
+    font-size: 18px;
+    line-height: 30px;
+}
+.clear{
+    clear: both;
+}
+.navbar{
+    background: url("/web3/images/menu_rept.jpg");
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+}
+.menu{
+    float: left;
+    margin:15;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main2{
+    width: 100%;
+    background: whitesmoke;
+    height: 500px;
+    border: 1px solid red;
+}
+.heading{
+    margin-left: 10px;
+}
+.why_info{
+    float: left;
+    width: 33%;
+    text-align: justify;
+    font-size: small;
+}
+.why_info2{
+    float: left;
+    width: 33%;
+    text-align: justify;
+    font-size: small;
+    border: 3px solid cadetblue;
+}
+.why_img{
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+    margin-bottom: 15%;
+} 
+.why_para{
+    float: left;
+    width:70%;
+    margin: 0% 2%;
+   
+}
+.why_heading{
+    color: darkblue;
+    padding: 1%;
+    font-size: 16px;
+    margin-left: 5%
+}
