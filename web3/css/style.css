@@ -9,7 +9,6 @@
 .inner{
     width: 1000px;
     margin: auto;
-    border: 1px solid red;
 }
 .logo{
     float: left;
@@ -43,9 +42,7 @@
 }
 .main2{
     width: 100%;
-    background: whitesmoke;
-    height: 500px;
-    border: 1px solid red;
+    background: white;
 }
 .heading{
     margin-left: 10px;
@@ -61,7 +58,7 @@
     width: 33%;
     text-align: justify;
     font-size: small;
-    border: 3px solid cadetblue;
+    border-right: 3px solid cadetblue;
 }
 .why_img{
     float: left;
@@ -80,4 +77,96 @@
     padding: 1%;
     font-size: 16px;
     margin-left: 5%
+}
+.services{
+    background: url("/web3/images/midback.png");
+    background-size: cover;
+    width: 1000px;
+    margin: auto;
+    height: 234px;
+}
+.service_row{
+    width: 100%;
+    height: 27%;
+}
+.our_service{
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+.service_img{
+    width: 20%;
+    margin: 3%;
+    float: left;
+}
+.service_info{
+    float: left;
+    width: 70%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 60px;
+}
+.domain{
+    width: 30%;
+    font-size: 12px;
+    float: left;
+}
+.domain_info{
+    float: left;
+    width: 74%;
+    margin-top: 1%;
+}
+.client{
+    width: 70%;
+    font-size: 12px;
+    float: left;
+}
+.client_name{
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 4%;
+}
+.main3{
+    width: 100%;
+    height: 500px;
+    background: url(/web3/images/footer.png);
+}
+.footer1{
+    width: 33%;
+    margin: 3% 0%;
+    float: left;
+}
+.quick_heading{
+    font-weight: bold;
+    color: brown;
+    margin: 3%;
+}
+.quick_icon{
+    background: url(/web3/images/dot.png) no-repeat;
+    width: 2%;
+    height: 1.5%;
+    float:left ;
+    margin:5px 5%;
+}
+.quick_text{
+    float: left;
+    font-size: 12px;
+}
+.quick_text1{
+    float: left;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+    width: 95%;
+}
+.quick_heading1{
+    font-weight: bold;
+    color: brown;
+    width: 90%;
+    margin: 3%;
+    text-align: right;
+}
+.footer2{
+    margin-left: 1%;
+    float: right;
 }
