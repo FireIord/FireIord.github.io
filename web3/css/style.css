@@ -128,7 +128,6 @@
 }
 .main3{
     width: 100%;
-    height: 500px;
     background: url(/web3/images/footer.png);
 }
 .footer1{
@@ -169,4 +168,5 @@
 .footer2{
     margin-left: 1%;
     float: right;
+    margin-bottom: 5%;
 }
