@@ -9,11 +9,12 @@
 .inner{
     width: 1000px;
     margin: auto;
+    /* border: 1px solid red; */
 }
 .logo{
     float: left;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 1%;
 }
 .c_info{
@@ -36,7 +37,7 @@
 }
 .menu{
     float: left;
-    margin:15;
+    margin:15px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -58,7 +59,7 @@
     width: 33%;
     text-align: justify;
     font-size: small;
-    border-right: 3px solid cadetblue;
+    border-right: 3px solid #003c66;
 }
 .why_img{
     float: left;
@@ -73,7 +74,7 @@
    
 }
 .why_heading{
-    color: darkblue;
+    color: #003c66;
     padding: 1%;
     font-size: 16px;
     margin-left: 5%
@@ -142,8 +143,8 @@
 }
 .quick_icon{
     background: url(/web3/images/dot.png) no-repeat;
-    width: 2%;
-    height: 1.5%;
+    width: 6px;
+    height: 6px;
     float:left ;
     margin:5px 5%;
 }
@@ -168,5 +169,79 @@
 .footer2{
     margin-left: 1%;
     float: right;
-    margin-bottom: 5%;
+    margin-bottom: 2.8%;
+}
+
+/* about us page */
+
+.inner_main1{
+    width: 100%;
+    background: url(/web3/images/bg_innerpage.jpg) no-repeat;
+}
+.leftside{
+    margin-top: 2%;
+    width: 234px;
+    padding: 1%;
+    /* border: 1px solid red; */
+    float: left;
+}
+.left_panel{
+    width: 234px;
+    height: 383px;
+    background: url(/web3/images/leftpanel.png);
+    /* border: 1px solid red; */
+}
+.quick_quote{
+    width: 100%;
+    background: url(/web3/images/leftbelow.png) no-repeat;
+    margin-top: 8%;
+    height: 323px;
+    /* border: 1px solid red; */
+}
+.panel_heading{
+    padding: 5% 8%;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+.panel_option{
+    font-size: 12px;
+    font-weight: bold;
+    color: #003c66;
+    margin: 8% 5%;
+}
+.panel_option1{
+    font-size: 12px;
+    font-weight: bold;
+    color: #003c66;
+    margin: 2% 5%;
+}
+.tbox{
+    width: 86%;
+    height: 22px;
+    margin:0% 5%;
+}
+.tarea{
+    width: 86%;
+    margin:0% 5%;
+    resize: none;
+}
+.rightside{
+    width: 72%;
+    padding: 1%;
+    /* border: 1px solid red; */
+    float: left;
+}
+.right_heading{
+    color: #003c66;
+}
+.paragraph{
+    font-size: 12px;
+    line-height: 25px;
+}
+.border{
+    width: 90%;
+    border-bottom: 1px solid #003c66;
+    margin: 2% auto;
 }
