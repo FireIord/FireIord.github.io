@@ -245,3 +245,75 @@
     border-bottom: 1px solid #003c66;
     margin: 2% auto;
 }
+
+/* portfolio page */
+
+.port_row{
+    width: 100%;
+    padding: 2% 0%;
+    /* border: 1px solid red; */
+}
+.port{
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+    /* border: 1px solid black; */
+}
+.port_img{
+    width: 99%;
+    border: 1px solid gray;
+}
+.port_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+}
+.port_visit{
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* career page */
+
+.career{
+    width: 100%;
+    /* border: 1px solid red; */
+    line-height: 30px;
+}
+.career_heading{
+    font-weight: bold;
+    /* border: 1px solid blue; */
+}
+.career_row{
+    margin-left: 2%;
+    /* border: 1px solid black; */
+    font-size: smaller;
+}
+.career1{
+    float: left;
+    width: 30%;
+    /* border: 1px solid pink; */
+}
+.career1a{
+    float: left;
+}
+.career1b{
+    float: right;
+    margin-right: 10%;
+    text-align: right;
+}
+.career2{
+    float: left;
+    /* border: 1px solid yellow; */
+    width: 69%;
+}
+
+/* client_view page  */
+
+.review{
+    width: 100%;
+    margin-top: 2%;
+    border: 1px solid red;
+}
