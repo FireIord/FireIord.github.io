@@ -1,23 +1,27 @@
-.body{
+.body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.main1{
+
+.main1 {
     background: url("/web3/images/bg_img.jpg");
     width: 100%;
 }
-.inner{
+
+.inner {
     width: 1000px;
     margin: auto;
     /* border: 1px solid red; */
 }
-.logo{
+
+.logo {
     float: left;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 1%;
 }
-.c_info{
+
+.c_info {
     float: right;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -26,147 +30,188 @@
     font-size: 18px;
     line-height: 30px;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.navbar{
+
+.navbar {
     background: url("/web3/images/menu_rept.jpg");
     width: 1000px;
     margin: auto;
     border-radius: 10px;
 }
-.menu{
+
+.menu {
     float: left;
-    margin:15px;
+    margin: 15px;
     font-size: 14px;
     font-weight: bold;
+    color: #003c66;
+    transition: 1s;
 }
-.main2{
+.menu:hover{
+    float: left;
+    margin: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003c66;
+}
+
+.main2 {
     width: 100%;
     background: white;
 }
-.heading{
+
+.heading {
     margin-left: 10px;
 }
-.why_info{
+
+.why_info {
     float: left;
     width: 33%;
     text-align: justify;
     font-size: small;
 }
-.why_info2{
+
+.why_info2 {
     float: left;
     width: 33%;
     text-align: justify;
     font-size: small;
     border-right: 3px solid #003c66;
 }
-.why_img{
+
+.why_img {
     float: left;
     width: 20%;
     margin-left: 2%;
     margin-bottom: 15%;
-} 
-.why_para{
-    float: left;
-    width:70%;
-    margin: 0% 2%;
-   
 }
-.why_heading{
+
+.why_para {
+    float: left;
+    width: 70%;
+    margin: 0% 2%;
+
+}
+
+.why_heading {
     color: #003c66;
     padding: 1%;
     font-size: 16px;
     margin-left: 5%
 }
-.services{
+
+.services {
     background: url("/web3/images/midback.png");
     background-size: cover;
     width: 1000px;
     margin: auto;
     height: 234px;
 }
-.service_row{
+
+.service_row {
     width: 100%;
     height: 27%;
 }
-.our_service{
+
+.our_service {
     width: 33%;
     height: 100%;
     float: left;
 }
-.service_img{
+
+.service_img {
     width: 20%;
     margin: 3%;
     float: left;
 }
-.service_info{
+
+.service_info {
     float: left;
     width: 70%;
     text-align: center;
     font-size: 14px;
     line-height: 60px;
+    color: #003c66;
 }
-.domain{
+
+.domain {
     width: 30%;
     font-size: 12px;
     float: left;
+    color: #003c66;
 }
-.domain_info{
+
+.domain_info {
     float: left;
     width: 74%;
     margin-top: 1%;
 }
-.client{
+
+.client {
     width: 70%;
     font-size: 12px;
     float: left;
+    color: #003c66;
 }
-.client_name{
+
+.client_name {
     font-weight: bold;
     text-align: right;
     margin-bottom: 4%;
 }
-.main3{
+
+.main3 {
     width: 100%;
     background: url(/web3/images/footer.png);
 }
-.footer1{
+
+.footer1 {
     width: 33%;
     margin: 3% 0%;
     float: left;
 }
-.quick_heading{
+
+.quick_heading {
     font-weight: bold;
     color: brown;
     margin: 3%;
 }
-.quick_icon{
+
+.quick_icon {
     background: url(/web3/images/dot.png) no-repeat;
     width: 6px;
     height: 6px;
-    float:left ;
-    margin:5px 5%;
-}
-.quick_text{
     float: left;
+    margin: 5px 5%;
+}
+
+.quick_text {
+    float: left;
+    color: #003c66;
     font-size: 12px;
 }
-.quick_text1{
+
+.quick_text1 {
     float: left;
     font-size: 12px;
+    color: #003c66;
     text-align: right;
     padding-right: 5px;
     width: 95%;
 }
-.quick_heading1{
+
+.quick_heading1 {
     font-weight: bold;
     color: brown;
     width: 90%;
     margin: 3%;
     text-align: right;
 }
-.footer2{
+
+.footer2 {
     margin-left: 1%;
     float: right;
     margin-bottom: 2.8%;
@@ -174,73 +219,86 @@
 
 /* about us page */
 
-.inner_main1{
+.inner_main1 {
     width: 100%;
     background: url(/web3/images/bg_innerpage.jpg) no-repeat;
 }
-.leftside{
+
+.leftside {
     margin-top: 2%;
     width: 234px;
     padding: 1%;
     /* border: 1px solid red; */
     float: left;
 }
-.left_panel{
+
+.left_panel {
     width: 234px;
     height: 383px;
     background: url(/web3/images/leftpanel.png);
     /* border: 1px solid red; */
 }
-.quick_quote{
+
+.quick_quote {
     width: 100%;
     background: url(/web3/images/leftbelow.png) no-repeat;
     margin-top: 8%;
     height: 323px;
     /* border: 1px solid red; */
 }
-.panel_heading{
+
+.panel_heading {
     padding: 5% 8%;
     font-size: 18px;
     font-weight: bold;
     color: red;
     text-align: center;
 }
-.panel_option{
+
+.panel_option {
     font-size: 12px;
     font-weight: bold;
     color: #003c66;
     margin: 8% 5%;
+    text-decoration: none;
 }
-.panel_option1{
+
+.panel_option1 {
     font-size: 12px;
     font-weight: bold;
     color: #003c66;
     margin: 2% 5%;
 }
-.tbox{
+
+.tbox {
     width: 86%;
     height: 22px;
-    margin:0% 5%;
+    margin: 0% 5%;
 }
-.tarea{
+
+.tarea {
     width: 86%;
-    margin:0% 5%;
+    margin: 0% 5%;
     resize: none;
 }
-.rightside{
+
+.rightside {
     width: 72%;
     padding: 1%;
     /* border: 1px solid red; */
     float: left;
 }
-.right_heading{
+
+.right_heading {
     color: #003c66;
 }
-.paragraph{
+
+.paragraph {
     font-size: 12px;
     line-height: 25px;
 }
-.border{
+
+.border {
     width: 90%;
     border-bottom: 1px solid #003c66;
     margin: 2% auto;
@@ -248,28 +306,32 @@
 
 /* portfolio page */
 
-.port_row{
+.port_row {
     width: 100%;
     padding: 2% 0%;
     /* border: 1px solid red; */
 }
-.port{
+
+.port {
     width: 30%;
     margin-left: 2%;
     float: left;
     /* border: 1px solid black; */
 }
-.port_img{
+
+.port_img {
     width: 99%;
     border: 1px solid gray;
 }
-.port_title{
+
+.port_title {
     text-align: center;
     font-weight: bold;
     font-size: 14px;
     line-height: 30px;
 }
-.port_visit{
+
+.port_visit {
     font-size: 14px;
     text-align: center;
     line-height: 20px;
@@ -277,34 +339,40 @@
 
 /* career page */
 
-.career{
+.career {
     width: 100%;
     /* border: 1px solid red; */
     line-height: 30px;
 }
-.career_heading{
+
+.career_heading {
     font-weight: bold;
     /* border: 1px solid blue; */
 }
-.career_row{
+
+.career_row {
     margin-left: 2%;
     /* border: 1px solid black; */
     font-size: smaller;
 }
-.career1{
+
+.career1 {
     float: left;
     width: 30%;
     /* border: 1px solid pink; */
 }
-.career1a{
+
+.career1a {
     float: left;
 }
-.career1b{
+
+.career1b {
     float: right;
     margin-right: 10%;
     text-align: right;
 }
-.career2{
+
+.career2 {
     float: left;
     /* border: 1px solid yellow; */
     width: 69%;
@@ -312,8 +380,99 @@
 
 /* client_view page  */
 
-.review{
+.review {
     width: 100%;
     margin-top: 2%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.review_form {
+    width: 40%;
+    margin-left: 5%;
+    float: left;
+    margin-top: 3%;
+    /* border: 1px solid blue; */
+}
+
+.tbox_review {
+    margin-bottom: 5%;
+    width: 90%;
+    height: 20px;
+    color: gray;
+}
+
+.review_button {
+    height: 35px;
+    width: 88px;
+    border-radius: 8px;
+    background: url(/web3/images/button.png);
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.tbox_review1 {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 70%;
+    height: 20px;
+    color: gray;
+}
+
+.filebox {
+    color: grey;
+    border: 1px solid grey;
+    padding: 1%;
+}
+
+.service_image{
+    width:45%;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+.headtext{
+    margin-top: 2%;
+    float: left;
+    width: 32%;
+    font-size: 12px;
+    color: #003c66;
+    text-align: center;
+}
+.service_right{
+    /* border: 1px solid blue; */
+    width: 53%;
+    float: left;
+    margin-left: 1%;
+}
+.heading_service{
+    color: #003c66;
+    font-size: 16px;
+}
+.row1c1{
+    float:left;
+    margin-top: 14px;
+    margin-right: 2%;
+    /* border: 1px solid red; */
+}
+.row1c2{
+    float:left;
+    /* border: 1px solid red; */
+}
+.paragraph1{
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 3%;
+    margin-bottom: 6%;
+}
+.paragraph2{
+    font-size: 11px;
+    line-height: 23px;
+    margin-left: 1%;
+    margin-bottom: 4%;
+}
+.service_inner{
+    width: 47%;
+    /* border: 1px solid red; */
+    float: left;
+    margin:1% ;
 }
