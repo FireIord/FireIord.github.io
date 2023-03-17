@@ -11,21 +11,36 @@
 </head>
 
 <body>
+    <!-- fixed content start  -->
+    <div class="fixed-item">
+        <div class="phone-icon">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="whatsapp-icon">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+    </div>
+    <div class="backtotop">
+        <a href="#header">
+        <i class="fa-sharp fa-solid fa-chevron-up"></i>
+    </a>
+    </div>
+    <!-- fixed content end -->
     <!-- header start -->
-    <div class="header">
+    <div class="header" id="header">
         <div class="logo">
             <img src="/lodhaluxary/images/logo.png" alt="logo" width="200">
         </div>
         <div class="menu">
             <ul>
-                <li><a href="">OVERVIEW</a></li>
-                <li><a href="">PROJECT HIGHLIGHTS</a></li>
-                <li><a href="">AMENITIES</a></li>
-                <li><a href="">GALLERY</a></li>
-                <li><a href="">FLOOR PLAN</a></li>
-                <li><a href="">PRICE</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">LOCATION</a></li>
+                <li><a href="#overview">OVERVIEW</a></li>
+                <li><a href="#projecthighlight">PROJECT HIGHLIGHTS</a></li>
+                <li><a href="#amenities">AMENITIES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#floorplan">FLOOR PLAN</a></li>
+                <li><a href="#price">PRICE</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#location">LOCATION</a></li>
                 <li><button>Enquire Now</button></li>
                 <li><a href="tel:8114400673"><i class="fa-solid fa-phone"></i>8114400673</a></li>
             </ul>
@@ -53,7 +68,7 @@
     </div>
     <!-- banner end -->
     <!-- overview start -->
-    <div class="overview">
+    <div class="overview" id="overview">
         <div class="overview_image">
             <img src="/lodhaluxary/images/overview.jpg" alt="overview">
         </div>
@@ -79,7 +94,7 @@
     </div>
     <!-- overview end -->
     <!-- location start  -->
-    <div class="location">
+    <div class="location" id="locations">
         <h1>LOCATION ADVANTAGE</h1>
         <div class="location_row">
             <div class="location_box">
@@ -102,7 +117,7 @@
     </div>
     <!-- location end -->
     <!-- project highlight start -->
-    <div class="highlight">
+    <div class="highlight" id="projecthighlight">
         <div class="highlight_list">
             <h1>PROJECT HIGHLIGHTS</h1>
             <ol>
@@ -125,7 +140,7 @@
     </div>
     <!-- project highlight end -->
     <!-- Amenities start  -->
-    <div class="amenities">
+    <div class="amenities" id="amenities">
         <h1>AMENITIES</h1>
         <div class="amenities_row">
             <div class="amenities_col">
@@ -172,7 +187,7 @@
     </div>
     <!-- Amenities end -->
     <!-- gallery start -->
-    <div class="gallery">
+    <div class="gallery" id="gallery">
         <h1>GALLERY</h1>
         <div class="gallery_row">
             <div class="gallery_items">
@@ -203,30 +218,143 @@
     </div>
     <!-- gallery end  -->
     <!-- SITE & FLOOR PLAN start -->
-    <div class="amenities">
+    <div class="amenities" id="floorplan">
         <h1>SITE & FLOOR PLAN</h1>
         <div class="floor_row">
-        <div class="floor">
-            <img src="/lodhaluxary/images/floor1.jpg" alt="floor and site plan" width="100%" height="100%">
-            <div class="transparent">
-                <button>ENQUIRE NOW</button>
+            <div class="floor">
+                <img src="/lodhaluxary/images/floor1.jpg" alt="floor and site plan" width="100%" height="100%">
+                <div class="transparent">
+                    <button>ENQUIRE NOW</button>
+                </div>
+            </div>
+            <div class="floor">
+                <img src="/lodhaluxary/images/floor2.jpg" alt="floor and site plan" width="100%" height="100%">
+                <div class="transparent">
+                    <button>ENQUIRE NOW</button>
+                </div>
+            </div>
+            <div class="floor">
+                <img src="/lodhaluxary/images/floor2.jpg" alt="floor and site plan" width="100%" height="100%">
+                <div class="transparent">
+                    <button>ENQUIRE NOW</button>
+                </div>
             </div>
         </div>
-        <div class="floor">
-            <img src="/lodhaluxary/images/floor2.jpg" alt="floor and site plan" width="100%" height="100%">
-            <div class="transparent">
-                <button>ENQUIRE NOW</button>
-            </div>
-        </div>
-        <div class="floor">
-            <img src="/lodhaluxary/images/floor2.jpg" alt="floor and site plan" width="100%" height="100%">
-            <div class="transparent">
-                <button>ENQUIRE NOW</button>
-            </div>
-        </div>
-    </div>
     </div>
     <!-- SITE & FLOOR PLAN end -->
+    <!-- PRICE list start-->
+    <div class="gallery" id="price">
+        <h1>PRICE LIST</h1>
+        <div class="price_list">
+            <div class="price_item">
+                <p> 3 BHK
+                    <br>
+                    1480 - 1520 Sq. Ft.
+                    <br>
+                    ₹ 6 Cr Onwards
+                </p>
+                <button>ENQUIRE NOW</button>
+            </div>
+            <div class="price_item">
+                <p> 3 BHK With Study
+                    <br>
+                    1600 - 1640 Sq. Ft
+                    <br>
+                    ₹ 6.69 Cr Onwards
+                </p>
+                <button>ENQUIRE NOW</button>
+            </div>
+            <div class="price_item">
+                <p> 4 BHK
+                    <br>
+                    2100 - 2200 Sq. Ft.
+                    <br>
+                    ₹ 8.99 Cr Onwards
+                </p>
+                <button>ENQUIRE NOW</button>
+            </div>
+            <table cellspacing="0px">
+                <tr>
+                    <th>Type</th>
+                    <th>Area</th>
+                    <th>Price</th>
+                </tr>
+                <tr id="tablecolor">
+                    <td>3 BHK</td>
+                    <td>1480 - 1520 Sq. Ft.</td>
+                    <td>6 Cr Onwards</td>
+                </tr>
+                <tr>
+                    <td>3 BHK With Study</td>
+                    <td>1600 - 1640 Sq. Ft.</td>
+                    <td>6.69 Cr Onwards</td>
+                </tr>
+                <tr id="tablecolor">
+                    <td>4 BHK</td>
+                    <td>2100 - 2200 Sq. Ft.</td>
+                    <td>8.99 Cr Onwards</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- price list end -->
+    <!-- FAQ start -->
+    <div class="amenities" id="faq">
+        <h1>FAQ</h1>
+        <div class="question">
+            <div class="q-content">
+                What is the pricing of Lodha Andheri East New Launch Project?
+            </div>
+            <div class="sign">+</div>
+        </div>
+        <div class="question">
+            <div class="q-content">
+                Is Andheri East New Launch Project RERA registered?
+            </div>
+            <div class="sign">+</div>
+        </div>
+        <div class="question">
+            <div class="q-content">
+                What is the location of Lodha Andheri East New Launch Project?
+            </div>
+            <div class="sign">+</div>
+        </div>
+        <div class="question">
+            <div class="q-content">
+                What type of room configurations are available in the project?
+            </div>
+            <div class="sign">+</div>
+        </div>
+    </div>
+    <!-- FAQ end -->
+    <!-- map start -->
+    <div class="gallery" id="location">
+        <h1>LOCATION</h1>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6191.700293694227!2d73.1774483759402!3d25.45685205656127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3942621770b137fd%3A0xf3ad2d9ed1ee6db4!2sDhola%20Jageer%2C%20Rajasthan%20306602!5e1!3m2!1sen!2sin!4v1679042591978!5m2!1sen!2sin"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- map end  -->
+    <!-- disclaimer start -->
+    <div class="disclaimer">
+        <div class="disclaimer_content">
+            <h5>Disclaimer</h5>
+            <p>Lodha Andheri East is not the official website of the developer, it belongs to authorised channel partner
+                - Ami Suzi Estate Consultants Pvt Ltd, and is used for information & marketing purposes only. All rights
+                for logo & images are reserved by the developer. By using or accessing this website you agree with the
+                disclaimer without any qualification or limitation. By accessing this website, the viewer confirms that
+                the information including brochures and marketing collaterals on this website are solely for
+                informational purposes only and the viewer has not relied on this information for making any
+                booking/purchase in any project of the company. RERA NO : A51800003170.</p>
+            <h6>Privacy Policy | ©2022, Lodha Andheri. All Rights Reserved.</h6>
+        </div>
+
+    </div>
+    <!-- disclaimer end -->
+
 </body>
 
 </html>
