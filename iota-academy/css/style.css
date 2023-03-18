@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    background-color: #162E6D;
+    /* height: 500px; */
+    padding: 15px 0px;
+}
+.row{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.row2{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 0px ;
+    flex-wrap: wrap;
+}
+.header-content{
+    flex-basis: 65%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.header-content h1{
+    font-size: 60px;
+    color: white;
+    padding-bottom:10px ;
+}
+.header-content h2{
+    font-size: 35px;
+    color: white;
+    padding-bottom:10px ;
+}
+.header-content h3{
+    font-size: 20px;
+    color: darkorange;
+    padding-bottom:10px ;
+}
+.header-content p{
+    font-size: 16px;
+    color: white;
+}
+.header-form{
+    flex-basis: 28%;
+    background-color:#071128;
+    /* border: 1px solid red; */
+    padding: 2%;
+}
+.header-form h1{
+    color: darkorange;
+    line-height: 70px;
+    text-align: center;
+}
+.header-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-form input{
+    flex-basis:40px;
+    border-radius: 8px;
+    border: none;
+    padding: 0px 15px ;
+    margin-bottom: 5%;
+}
+.header-form select{
+    color: gray;
+    flex-basis:40px;
+    border-radius: 8px;
+    border: none;
+    padding: 0px 15px ;
+    margin-bottom: 5%;
+}
+.header-form button{
+    width: 100px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-bottom: 5%;
+    margin: auto;
+    border-radius: 5px;
+}
+.header-form button:hover{
+    background-color: white;
+    color: darkorange;
+}
+.main1{
+    width: 100%;
+    background: #e9ecf5;
+}
+.inner{
+    width: 1170px;
+    padding: 40px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main1-image{
+    flex-basis: 48%;
+}
+.main1-content{
+    flex-basis: 48%;
+    padding-top: 15px ;
+}
+.main1-content h1{
+    color: darkorange;
+    font-size: 32px;
+    line-height: 80px;
+}
+.main1-content h2{
+    line-height: 50px;
+}
+.main1-content p{
+    line-height: 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
