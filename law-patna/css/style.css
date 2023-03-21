@@ -270,7 +270,7 @@ tr:nth-child(odd){
 }
 .box{
     flex-basis: 250px;
-    height: 400px;
+    padding-top: 20px;
     margin-left: 20px;
     background: white;
     /* border: 1px solid green; */
@@ -307,12 +307,106 @@ tr:nth-child(odd){
 
 .students{
     flex-basis: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;    
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .student{
-    flex-basis: 28%;
-    border: 1px solid blue;
+    flex-basis: 20%;
+    border: 1px solid grey;
+    position: relative;
+    padding: 5%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5% 0%;
+    border-radius: 10px;
+}
+.student h1,h2{
+    width: 100%;
+    text-align: center;
+    margin-top:30px;
+}
+.student img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+.rank{
+    position: absolute;
+    width: 35px;
+    top: -5px;
+    right: 0px;
+    text-align: center;
+    background: #ec3237;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.rank p{
+    font-size: 18px;
+    color: #ffcb00;
+    font-weight: bold;
+}
+.rank h1{
+    color: white;
+}
+.video{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.footer1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer2{
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+.inner-1{
+    width: 1170px;
+    margin: auto;
+    padding-bottom: 50px ;
+}
+#icons{
+    font-size: 20px;   
+    margin: 2% auto;
+    
+}
+#icons i{
+    padding: 10px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+#icons i:hover{
+    background-color: #ffcb00;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footer-3{
+    text-align: center;
+    color: white;
+}
+.footer-3 p{
+    margin-top: 2%;
+    line-height: 35px;
+}
+.footer{
+    width: 100%;
+    background: rgb(0,0,0,.5);
+    padding-top: 50px;
 }
