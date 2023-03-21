@@ -87,9 +87,11 @@
     margin:50px auto;
     font-size: 22px;
     flex-wrap: wrap;
+    margin-bottom:20px;
 }
 .heading h1{
     margin-bottom: 10px;
+    text-align: center
 }
 .heading img{
     display: block;
@@ -154,4 +156,163 @@
 .card1 ul li{
     padding-left: 10px;
     padding-right: 10px;
+}
+.main3{
+    background: #e9ecf5;
+    width: 100%;
+    height: 720px;
+}
+.row2{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+.row2img{
+    background: url(/law-patna/images/frame.png);
+    background-size: cover;
+    height: 370px;
+    width: 600px;
+    position: relative;
+}
+.img1{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+.img2{
+    position: absolute;
+    top: 100px;
+    right: 60px;
+}
+.row2-content-1{
+    position: absolute;
+    text-align: right;
+    width: 200px;
+    top: 120px;
+    left: 50px;
+}
+.row2 h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.row2 p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.row2-content-2{
+    position: absolute;
+    width: 200px;
+    top: 140px;
+    right: 60px;
+    text-align: left;
+}
+.row2-content-3{
+    position: absolute;
+    width: 200px;
+    top: 330px;
+    left: 160px;
+    text-align: right;
+    
+}
+.row2-content-4{
+    position: absolute;
+    width: 200px;
+    top: 330px;
+    right: 160px;
+    text-align: left;
+}
+.tabel{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.tabel table{
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid grey; */
+}
+th{
+    background-color: #ec3237;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+td{
+    padding: 10px 0px;
+    border-bottom: 1px solid dimgrey;
+}
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
+.main4{
+    width: 100%;
+    background-color: #e9ecf5;
+}
+.paragraph{
+    flex-basis: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.paragraph p{
+    width: 85%;
+    margin: auto;
+}
+.contain{
+    flex-basis: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.box{
+    flex-basis: 250px;
+    height: 400px;
+    margin-left: 20px;
+    background: white;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-bottom: 5px solid white;
+    border-radius: 5px ;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    transition: .8s;
+}
+.box:hover{
+    background-color: #ffcb00;
+    border-bottom: 5px solid grey;
+    
+}
+.box:hover .photo h1{
+    color: black;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo h1{
+    flex-basis: 100%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 60px;
+    color: grey;
+    transition: .8s;
+}
+
+.students{
+    flex-basis: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+}
+.student{
+    flex-basis: 28%;
+    border: 1px solid blue;
 }
