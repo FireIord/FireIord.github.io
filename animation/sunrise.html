@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <title>Sunrise animation</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            @keyframes sunwave{
+                0%{
+                    top: 700px;
+                    left: -150px;
+                    box-shadow: 0px 0px 10px 10px orange;
+                }
+                25%{
+                    top: 0px;
+                    left: 600px;
+                    box-shadow: 0px 0px 100px 10px orange;
+                }
+                50%{
+                    top: 700px;
+                    left: 1470px;
+                    box-shadow: 0px 0px 10px 10px orange;
+                }
+                100%{
+                    top: 700px;
+                    left: -150px;
+                    box-shadow: 0px 0px 10px 10px orange;
+                }
+            }
+            @keyframes moonwave{
+                0%{
+                    top: 700px;
+                    left: -150px;
+                    box-shadow: 0px 0px 10px 10px white;
+                }
+                25%{
+                    top: 0px;
+                    left: 600px;
+                    box-shadow: 0px 0px 100px 10px white;
+                }
+                50%{
+                    top: 700px;
+                    left: 1470px;
+                    box-shadow: 0px 0px 10px 10px white;
+                }
+                100%{
+                    top: 700px;
+                    left: -150px;
+                    box-shadow: 0px 0px 10px 10px white;
+                }
+            }
+            @keyframes sunlight{
+                0%{
+                    background-color: black;
+                }
+                25%{
+                    background-color: skyblue;
+                }
+                50%{
+                    background-color: black;
+                }
+                100%{
+                    background-color: black;
+                }
+            }
+            @keyframes starlight{
+                0%{
+                    opacity: .1;
+                }
+                25%{
+                    opacity: 0;
+                }
+                50%{
+                    opacity: 1;
+                }
+                100%{
+                    opacity: .1;
+                }
+            }
+            
+            body{
+                background-color: black;
+                overflow: hidden;
+                animation: sunlight 40s linear infinite;
+            }
+            .sun{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background-color: yellow;
+                position: absolute;
+                box-shadow: 0px 0px 10px 10px orange;
+                top: 700px;
+                animation: sunwave 40s linear infinite;
+            }
+            .moon{
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                top: 700px;
+                border-radius: 50%;
+                box-shadow: 0px 0px 10px 5px white;
+                left: 0px;
+                animation: moonwave 40s 20s linear infinite;
+            }
+            .moon img{
+                position: absolute;
+                top: 0px;
+                left: -5px;
+                transform: scale(1.1,1.1);
+            }
+            .stars{
+                animation: starlight 40s linear infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="stars">
+            <img src="/animation/images/stars.png" width="100%">
+        </div>
+        <div class="sun"></div>
+        <div class="moon">
+            <img src="/animation/images/moon.png" width="110%">
+        </div>
+    </body>
+</html>
