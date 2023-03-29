@@ -1,0 +1,87 @@
+@media only screen and (max-width: 567px){
+    .inner{
+        width: 90%;
+        flex-direction: column;
+        padding: 0% 5%;
+        gap: 20px;
+        flex-wrap: nowrap;
+    }
+    .form h1{
+        font-size: 20px;
+    }
+    .heading h1{
+        font-size: 30px;
+    }
+    .cards{
+        width: 100%;
+        flex-direction:column;
+    }
+    .main2{
+        width: 100%;
+    }
+    .main3{
+        width: 100%;
+        background:lightgrey;
+        display: none;
+    }
+    th{
+        font-size: 16px;
+    }
+    td{
+        font-size: 14px;
+    }
+    .contain{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    .box{
+        margin: 0px 0px;
+    }
+    .students{
+        flex-direction: column;
+    }
+    .video{
+        width: 100%;
+        height: 200px;
+    }
+    .inner-1{
+        width: 100%;
+        padding-bottom:70px ;
+    }
+    .bootom{
+        width: 100%;
+        position: fixed;
+        visibility: visible;
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        top: 92.7%;
+        left: 0px;
+        
+    }
+    .phone{
+        background-color: #103f6b;
+        flex-basis: 50%;
+        height: 100%;
+        border-right: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .bootom i{
+        padding-right:10px ;
+    }
+    .message{
+        background-color: #103f6b;
+        flex-basis: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
