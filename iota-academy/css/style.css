@@ -337,3 +337,7 @@ tr:nth-child(odd){
 .backtotop i{
     color: white;
 }
+.bootom{
+    position: fixed;
+    visibility: hidden;
+}
