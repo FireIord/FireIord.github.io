@@ -1,0 +1,139 @@
+@media only screen and (min-width:200px) and (max-width:567px){
+    .menu{
+        display: none;
+    }
+    .header{
+        height: 70px;
+        align-items: center;
+    }
+    .logo{
+        flex-basis: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .menu_button{
+        display: flex;
+        flex-basis: 15%;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner{
+        width: 94%;
+        padding:3%;
+        padding-top: 15%;
+    }
+    .inner h1{
+        font-size: 40px;
+    }
+    .main2-news{
+        flex-direction: column;
+    }
+    .news-img{
+        width: 100%;
+        height: 300px;
+    }
+    .news-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .news-21{
+        flex-direction: column-reverse;
+    }
+    .news-content h1,.news2-content h1{
+        font-size: 22px;
+    }
+    .news2-content :nth-child(3),.news-content :nth-child(3){
+        display: none;
+    }
+    .news-3{
+        flex-direction: column;
+    }
+    .main4-inner{
+        flex-direction: column;
+    }
+    .filter{
+        display: none;
+    }
+    .button-filter{
+        display: block;
+        background-color: #666;
+        color: white;
+        padding: 20px;
+        border: none;
+        font-size: 16px;
+    }
+    .button-filter i{
+        padding-right: 20px;
+    }
+    .main4-news h1{
+        display: block;
+        padding-top: 20px;
+        font-size: 16px;
+        color: black;
+    }
+    .main5-inner{
+        display: block;
+        text-align: left;
+    }
+    .main5-inner h1{
+        font-size: 25px;
+    }
+    .main5-inner h2{
+        font: 20px;
+        line-height: 30px;
+    }
+    .footer-inner{
+        flex-direction: column;
+    }
+    .footer-part2{
+        display: none;
+    }
+    .footer-mobile{
+        display: block;
+    }
+    .part{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 5%;
+        border-bottom: 2px solid lightgrey;
+    }
+    .part h1{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .part i{
+        font-size: 22px;
+    }
+    .footer-part3{
+        display: none;
+    }
+    .part ul{
+        padding-top: 30px;
+        font-size: 12;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .part ul li{
+        padding-right: 20px;
+        border-right: 1px solid grey;
+    }
+    .part ul li:last-child{
+        border: none;
+    }
+    .part select{
+        border: none;
+        background-color: white;
+    }
+    .part:last-child{
+        padding: 40px 20px;
+        border: none;
+    }
+    
+}
