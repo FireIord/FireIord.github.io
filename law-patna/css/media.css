@@ -39,6 +39,15 @@
     }
     .students{
         flex-direction: column;
+        width: 100%;
+    }
+    .student{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .student img{
+        display: block;
+        margin: auto;
     }
     .video{
         width: 100%;
@@ -83,5 +92,9 @@
         align-items: center;
         font-size: 20px;
         font-weight: bold;
+    }
+    .rank{
+        width: 40px;
+        padding: 10px 10px;
     }
 }
