@@ -2,6 +2,9 @@
     .menu{
         display: none;
     }
+    .menu-bar{
+        display: none;
+    }
     .header{
         height: 70px;
         align-items: center;
