@@ -1,0 +1,123 @@
+@media only screen and (max-width: 567px) {
+    
+    header{
+        width: 100%;
+    }
+    .contact{
+        display: none;
+    }
+    .logo{
+        margin: auto;
+    }
+    .container {
+        width: 90%;
+        flex-direction: column;
+        padding: 5%;
+    }
+    .content-banner{
+        text-align: center;
+    }
+    .content-banner>h1{
+        font-size: 25px;
+    }
+    .content-banner>h2{
+        font-size: 18px;
+    }
+    .content-banner>p{
+        font-size: 16px;
+    }
+    .form-banner{
+        padding: 10% 5%;
+    }
+    .marks{
+        justify-content: space-around;
+    }
+    .truck-body{
+        display: none;
+    }
+    .container-column{
+        width: 90%;
+        padding: 0% 5%;
+    }
+    .section-heading{
+        font-size: 22px;
+    }
+    .yt-box>h1{
+        font-size: 18px;
+    }
+    .section-content{
+        flex-direction: column;
+
+    }
+    .service-inner>h2{
+        font-size: 20px;
+    }
+    .service-inner>figcaption{
+        font-size: 16px;
+    }
+    .flrx{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .WhyPack{
+        flex-basis: 47%;
+        margin-bottom: 7%;
+    }
+    .ACHIEVEMENT{
+        flex-basis: 48%;
+    }
+    .review>i{
+        display: none;
+    }
+    .review{
+        flex-direction: column;
+    }
+    .portrait{
+        position: static;
+    }
+    .review-text{
+        position: static;
+    }
+    .clients>img{
+        width: 50%;
+    }
+    .list{
+        text-align: center;
+    }
+    footer{
+        width: 90%;
+        padding: 0% 5%;
+    }
+    .footer-inner{
+        width: 100%;
+    }
+    .footerpart2{
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 70px;
+    }
+    .fixed-call{
+        width: 100%;
+        display: flex;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        border-top: 1px solid lightgray;
+    }
+    .call{
+        flex-basis: 50%;
+        text-align: center;
+        background-color: #035fae;
+        padding: 5% 0%;
+        color: white;
+        font-weight: bold;
+    }
+    .whatsapp{
+        flex-basis: 50%;
+        text-align: center;
+        background-color: #ffcf40;
+        padding: 5% 0%;
+        color: white;
+        font-weight: bold;
+    }
+}
