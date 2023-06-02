@@ -8,7 +8,10 @@
 </head>
 
 <body>
-
+    <div class="loading">
+        <img src="images/loading.gif" alt="loading" width="210" height="380">
+        <span>LOADING</span>
+    </div>
     <div class="main">
         <h1>WsCube projects</h1>
     </div>
@@ -152,5 +155,12 @@
 
 
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script>
+    $(window).on('load',function(){
+        $('.loading').remove();
+    })
+</script>
 
 </html>
