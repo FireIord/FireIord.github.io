@@ -1,0 +1,11 @@
+@media only screen and (max-width: 767px) {
+    .intro{
+        flex-direction:column-reverse
+    }
+    .introduction h2{
+        font-size: 25px;
+    }
+    .introduction h2 span{
+        font-size: 34px;
+    }
+}
