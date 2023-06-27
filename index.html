@@ -2,173 +2,238 @@
 <html lang="en">
 
 <head>
-    <title>WsCube projects</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/restyle.css">
+  <link rel="stylesheet" href="/css/media.css">
 </head>
 
 <body>
-    <div class="loading">
-        <img src="images/loading.gif" alt="loading" width="210" height="380">
-        <span>LOADING</span>
+  <header class="container-fluid bg-body-tertiary px-lg-5 sticky-top">
+    <nav class=" navbar navbar-expand-lg">
+      <a href="https://fireiord.github.io" class="navbar-brand">
+        <img src="/images/logo.png" alt="" class="d-inline-block align-text-top" width="120" height="45">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end navs" id="navigation">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a href="#skill-top" class="nav-link" >Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#project-top" class="nav-link">
+              <img src="/images/gears.svg" alt="">
+              Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-top" class="nav-link">
+              Contact me
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- introduction -->
+  <section class="container-fluid">
+    <div class="container">
+      <div class="row justify-content-between my-5 intro">
+        <aside class="col-md-6 col-12 mt-5 introduction">
+          <h2>Hi👋, I’m a<br>
+            <span>software developer</span>
+          </h2>
+          <p>I’m Harish Kumar Choudhary, a developer dedicated to making the world a better place one line of code at a
+            time.</p>
+          <button class="btn btn-danger">Hire me</button>
+        </aside>
+        <aside class="col-md-4 col-12 photo py-5">
+          <img src="/images/face" alt="" class="border border-1 justify-content-end" width="250">
+          <div class="zigzags">
+            <img src="/images/zigzags.svg" alt="">
+          </div>
+          <div class="plus">
+            <img src="/images/plus.svg" alt="">
+          </div>
+          <div class="cube">
+            <img src="/images/cube.svg" alt="">
+          </div>
+          <div class="ellipse">
+            <img src="/images/Ellipse 11.svg" alt="">
+          </div>
+          <div class="dots">
+            <img src="/images/dots.png " width="70px" height="60px" alt="">
+          </div>
+        </aside>
+      </div>
     </div>
-    <div class="main">
-        <h1>WsCube projects</h1>
+  </section>
+  <!-- skill -->
+  <section class="conatiner-fluid my-5" id="skill-top">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-12 text-center md-2 heading ">Skills</div>
+      </div>
+      <div class="row justify-content-between align-items-center intro">
+        <aside class="col-md-5">
+          <div class="row gy-4">
+            <div class="col-11 mx-auto">
+              <p>I have a vast experience in the following web technologies:</p>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="skill">
+                <div class="polygon mx-auto">
+                  <img src="/images/html5.svg" alt="">
+                </div>
+                <div class="my-1 text-center">HTML 5</div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="skill">
+                <div class="polygon mx-auto">
+                  <img src="/images/js.png" alt="">
+                </div>
+                <div class="my-1 text-center">JavaScript</div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="skill">
+                <div class="polygon mx-auto">
+                  <img src="/images/css.svg" alt="">
+                </div>
+                <div class="my-1 text-center">CSS3</div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="skill">
+                <div class="polygon mx-auto">
+                  <img src="/images/bs.svg" alt="">
+                </div>
+                <div class="my-1 text-center">BootStrap</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-md-5 my-4">
+          <div class="text-center">
+            <img src="/images/man.svg" width="90%">
+          </div>
+        </aside>
+      </div>
     </div>
-    <div class="main1">
-        <div class="project-list">
-            <div class="project">
-                <img src="/images/web1.png" alt="IIP ACADEMY Website Version 1">
-                <div class="project-inner">
-                    <a href="/web1/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>IIP ACADEMY V1</h1>
-            </div>
-            <div class="project">
-                <img src="/images/web2.png" alt="WsCube Tech Website Version 1">
-                <div class="project-inner">
-                    <a href="/web3/home.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>WsCube Tech V1</h1>
-            </div>
-            <div class="project">
-                <img src="/images/onepage.png" alt="WsCube Tech One Page Website">
-                <div class="project-inner">
-                    <a href="/one_page1/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>WsCube Tech ONE PAGE</h1>
-            </div>
-            <div class="project">
-                <img src="/images/website4.png" alt="WsCube Tech Website Version 2">
-                <div class="project-inner">
-                    <a href="/web4/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>WsCube Tech V2</h1>
-            </div>
-            <div class="project">
-                <img src="/images/doremonweb.png" alt="Doremon Using Html & Css">
-                <div class="project-inner">
-                    <a href="/doremon/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Doremon</h1>
-            </div>
-            <div class="project">
-                <img src="/images/lodhaluxury.png" alt="Lodha-Luxury Website">
-                <div class="project-inner">
-                    <a href="/lodhaluxary/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Lodha-Luxury</h1>
-            </div>
-            <div class="project">
-                <img src="/images/iotaacademy.png" alt="Iota-Academy">
-                <div class="project-inner">
-                    <a href="/iota-academy/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>IOTA-ACADEMY</h1>
-                <!-- <div class="responsive">
-                    <i class="fa-solid fa-mobile-notch"></i>
-                    hello
-                </div> -->
-                
-            </div>
-            <div class="project">
-                <img src="/images/law-patna.png" alt="LAW-PATNA">
-                <div class="project-inner">
-                    <a href="/law-patna/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Law-Tutorial-Patna</h1>
-            </div>
-            <div class="project">
-                <img src="/images/solor-animation.png" alt="SolarSystem-Animation">
-                <div class="project-inner">
-                    <a href="/animation/solor.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Solor System Animation</h1>
-            </div>
-            <div class="project">
-                <img src="/images/bubble.png" alt="Bubble-Animation">
-                <div class="project-inner">
-                    <a href="/animation/bubble.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>bubble Animation</h1>
-            </div>
-            <div class="project">
-                <img src="/images/doremonweb.png" alt="Doremon-Animation">
-                <div class="project-inner">
-                    <a href="/animation/doremon.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Doremon Animation</h1>
-            </div>
-            <div class="project">
-                <img src="/images/sunrise.png" alt="Day-night cycle Animation">
-                <div class="project-inner">
-                    <a href="/animation/sunrise.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Day-Night Cycle Animation</h1>
-            </div>
-            <div class="project">
-                <img src="/images/sea-boat.png" alt="boat Animation">
-                <div class="project-inner">
-                    <a href="/animation/boat.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Boat Animation</h1>
-            </div>
-            <div class="project">
-                <img src="/images/metanews.png" alt="meta news">
-                <div class="project-inner">
-                    <a href="/Meta_News/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Meta News</h1>
-            </div>
-            <div class="project">
-                <img src="/images/packshifts.png" alt="PackShifts">
-                <div class="project-inner">
-                    <a href="/PackShift/index.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>PackShifts</h1>
-            </div>
-            <div class="project">
-                <img src="/images/taskly.png" alt="Taskly">
-                <div class="project-inner">
-                    <a href="/jquery/taskly.html" target="_blank"><button>Visit Now</button></a>
-                </div>
-                <h1>Taskly</h1>
-            </div>
-            <div class="project"> 
-                 <img src="/images/taskly.png" alt="Taskly"> 
-                 <div class="project-inner"> 
-                     <a href="/dubaifashion/home.html" target="_blank"><button>Visit Now</button></a> 
-                 </div> 
-                 <h1>Taskly</h1> 
-             </div>
+  </section>
+  <!-- projects -->
+  <section class="container-fluid projects my-5" id="project-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-3">
+          <div class="text-center py-3"
+            style="color: white; font-size: 20px; font-family: Be Vietnam; font-weight: 500;">
+            <img src="/images/wgear.svg" alt="">
+            Projects
+          </div>
         </div>
-    </div>
-
-    <div class="pencil">
-        <div class="intro">
-            <div class="profile">
-                <img src="/images/face" alt="profile">
+      </div>
+      <div class="row py-4 gy-4 justify-content-center">
+        <div class="col-lg-4 col-md-6 col-12 d-flex align-items-stretch">
+          <div class="card border-4 project-card mx-4">
+            <img src="/images/packshifts.png" class="card-img-top" height="200px" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">PACKSHIFTS</h5>
+              <p class="card-text">Clone of PACKSHIFTS - INDIA'S BEST PACKERS AND MOVERS COMPANY website</p>
+              <a href="/PackShift/index.html" class="btn p-button">Visit Now</a>
             </div>
-            <div class="content">
-                <h1>NAME :- HARISH KUMAR CHOUDHARY</h1>
-                <h2>EDUCATION :- Master's In Computer Application</h2>
-                <h2>MOBILE NO. :- +918114400673</h2>
-                <a href="tel: +918114400673"><button>Contact Now</button></a>
-            </div>
+          </div>
         </div>
-        
+        <div class="col-lg-4 col-md-6 col-12 d-flex align-items-stretch">
+          <div class="card border-4 project-card mx-4">
+            <img src="/images/iotaacademy.png" class="card-img-top" height="200px" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Iota-Academy</h5>
+              <p class="card-text">A Clone of IOTA-ACADEMY website Best IIT-JEE / NEET Institute</p>
+              <a href="/iota-academy/index.html" class="btn p-button">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 d-flex align-items-stretch">
+          <div class="card border-4 project-card mx-4">
+            <img src="/images/law-patna.png" class="card-img-top" height="200px" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Law Tutorial Patna</h5>
+              <p class="card-text">Clone of lawpreptutorial Patna Best CLAT Coaching in Patna (No 1 CLAT Institute) </p>
+              <a href="law-patna/index.html" class="btn p-button">Visit Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <a href="#" class="btn btn-primary ">More</a>
+        </div>
+      </div>
     </div>
-    
-
-
+  </section>
+  <!-- contact us -->
+  <section class="conatiner-fluid my-5" id="contact-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 my-4 text-center heading">Contact me</div>
+      </div>
+      <div class="row">
+        <aside class="col-lg-6 col-12">
+          <div class="text-center">
+            <img src="/images/man2.png" width="100%" alt="">
+          </div>
+        </aside>
+        <aside class="col-lg-6 col-12 my-5 text-center contact">
+          <input type="text" class="form-control form-control-lg" placeholder="Enter email address">
+          <textarea class="form-control form-control-lg" rows="5" placeholder="Enter message"></textarea>
+          <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"
+              style="color: #5291ff;"></i></button>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <!-- footer top background -->
+  <div class="container-fluid footer-top"></div>
+  <!-- footer -->
+  <section class="conatiner-fluid footer">
+    <div class="container">
+      <div class="row">
+        <aside class="col-md-6 col-12 mb-5">
+          <div class="row">
+            <div class="col-9 mx-auto">
+              <div class="col-12 mb-3 footer-text">My social media links:</div>
+              <div class="row icons">
+                <div class="col-3"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></div>
+                <div class="col-3"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></div>
+                <div class="col-3"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></div>
+                <div class="col-3"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></div>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <aside class="col-md-6 col-12 mb-5">
+          <div class="row left-footer">
+            <div class="col-9 mx-auto footer-text mb-3">
+              More projects I’ve worked on
+            </div>
+            <div class="col-9 mx-auto">
+              <a href="https://fireiord.github.io">
+                <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+                @ Fireiord on github
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
 </body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<script>
-    $(window).on('load',function(){
-        $('.loading').fadeOut('5000');
-        $('.loading').remove();
-    })
-</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
 </html>

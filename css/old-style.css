@@ -1,0 +1,200 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    background: url(/images/background.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.loading{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.loading span{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 510px;
+}
+.main{
+    /* position: -webkit-sticky;
+  position: sticky;
+  top: 0; */
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.main h1{
+    padding: 100px 0px;
+    font-size: 50px;
+    color: goldenrod;
+    margin-left: 200px;
+}
+.main1{
+    width: 1170px ;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+.project-list{
+    flex-basis: 84%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project{
+    flex-basis: 45%;
+    margin-bottom: 5%;
+    object-fit: cover;
+    border: 2px solid white;
+    background: white;
+    border-radius: 10px ;
+    overflow: hidden;
+    position: relative;
+}
+.project:hover .project-inner{
+    transform: scale(1,1);
+}
+.project:hover{
+    background-color: darkorange;
+    border: 2px solid darkorange;
+}
+.project:hover h1{
+    color: white;
+}
+.project-inner{
+    transform: scale(0,0);
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0px 0px ;
+    background: rgb(0, 0, 0,.9);
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .5s;
+}
+.project img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.project h1{
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 0px;
+    color: darkorange;
+}
+.project-inner button{
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: darkorange;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+}
+.project-inner button:hover{
+    background: white;
+    color: darkorange;
+}
+
+
+
+
+
+
+
+.pencil{
+    position: fixed;
+    width:2.8% ;
+    height: 73%;
+    top: 115px;
+    left: 157px;
+    overflow: hidden;
+    transition: 1s;
+}
+.intro{
+    position: absolute;
+    left: -1200px;
+    width: 1150px;
+    top: -1px;
+    height: 100%;
+    background-color: white;
+    /* border: 1px solid pink; */
+    border-radius: 0px 20px 20px 0px;
+    margin-left: 25px;
+    transition: 1s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pencil:hover{
+    /* border: 1px solid red; */
+    width: 1150px;
+    left: 157px;
+    transition: .5s;
+    
+}
+.pencil:hover .intro{
+    left: -30px;
+    
+}
+.profile{
+    flex-basis: 17%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    text-align: center;
+    line-height: 50px;
+}
+.content button{
+    padding: 10px 50px;
+    margin: 30px 0px;
+    background-color: darkorange;
+    border: 2px solid darkorange;
+    border-radius: 5px;
+    font-size: 18px ;
+    font-weight: bold;
+    color: white;
+}
+.content button:hover{
+    background: white;
+    color: darkorange;
+}
+/* .responsive i{
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+.responsive{
+    height: 20px;
+    flex-basis: 20px;
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    top: 80%;
+    left: 0px;
+} */
